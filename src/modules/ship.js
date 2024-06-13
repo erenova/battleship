@@ -11,5 +11,6 @@ export default function Ship(size) {
     isSunk() {
       return hits >= size;
     },
+    isPlaced: false,
   };
 }

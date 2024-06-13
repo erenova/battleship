@@ -1,6 +1,6 @@
 import Ship from "../modules/ship";
 
-describe("Ship", () => {
+describe("Ship Function", () => {
   test("should have a size as given in parameter", () => {
     const newShip = Ship(5);
     expect(newShip.size).toBe(5);
